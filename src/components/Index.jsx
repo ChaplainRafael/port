@@ -33,7 +33,7 @@ const Home = () =>{
             return (
                 <div className="page-btns"> {/* buttons */}
                         <div className="logo">
-                            <img src="src/assets/skull.webp" alt="logo" />
+                            <img src="src/assets/skull.jpg" alt="logo" />
                         </div>
                         <span style={{ color: 'red', fontWeight: 'bold' }}>
                             {/* Style will be inherited from the parent element */}
@@ -82,7 +82,7 @@ const Home = () =>{
                             </p>
                         </div>
                         <div className="tech-priest">
-                            <img src="src/assets/tech-boy.webp" alt="" />
+                            <img src="src/assets/tech-boy.jpg" alt="" />
                         </div>
                     </div>
                     </div>
