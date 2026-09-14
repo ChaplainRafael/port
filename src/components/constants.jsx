@@ -8,6 +8,19 @@ import { SiExpress, SiTailwindcss } from "react-icons/si";
 
 
 export const projects = [
+  {
+    name: 'Food Finder',
+    info: 'Full-Stack Food recipe finder with login',
+    tech: [
+      { id: 1, icon: <FaReact /> },
+      { id: 2, icon: <FaJsSquare /> },
+      { id: 3, icon: <FaNodeJs /> },
+      { id: 4, icon: <DiMongodb /> },
+      { id: 5, icon: <SiExpress /> },
+    ],
+    url: 'https://findmefood.netlify.app/',
+    github: 'https://github.com/ChaplainRafael/foodfinder-front'
+  },
     {
       name: 'Memories of a cool Tech-Priest',
       
