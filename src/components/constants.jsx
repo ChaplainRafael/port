@@ -2,12 +2,22 @@
 import { FaReact, FaJsSquare,FaNodeJs, FaCss3 } from 'react-icons/fa';
 import { DiMongodb } from "react-icons/di";
 import { TbBrandRedux } from "react-icons/tb";
-import { SiExpress, SiTailwindcss } from "react-icons/si";
+import { SiExpress, SiTailwindcss,SiTypescript , SiVisualstudiocode } from "react-icons/si";
 
 
 
 
 export const projects = [
+  {
+    name: 'Code Feelings',
+    info: 'A VS Code extension that reacts to coding activity, errors, warnings, and file saves through a reactive mechanical face.',
+    tech: [
+      { id: 1, icon: <SiTypescript /> },
+      { id: 2, icon: <SiVisualstudiocode /> },
+    ],
+    url: 'https://github.com/ChaplainRafael/stateServo',
+    github: 'https://marketplace.visualstudio.com/items?itemName=ChaplainRafael.Wrenchy'
+  },
   {
     name: 'Food Finder',
     info: 'Full-Stack Food recipe finder with login',
